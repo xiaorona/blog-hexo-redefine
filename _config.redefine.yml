@@ -211,16 +211,18 @@ navbar:
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # 可为空
+    Albums: 
+      path: /masonry/ 
+      icon: fa-solid fa-image # 可为空
     About: 
-      icon: fa-regular fa-user
+      icon: fa-solid fa-circle-info
       submenus:
         Me: /about
     Links: 
       icon: fa-regular fa-link
       submenus:
-        Link1: /link1
-        Link2: /link2
-        Link3: /link3
+        Link1: https://example.com
+        Link2: /friendslink
     # ...... # 可以添加更多
   # 导航栏搜索 (本地搜索)。需要 hexo-generator-searchdb (npm i hexo-generator-searchdb)。参见 https://github.com/theme-next/hexo-generator-searchdb
   search:

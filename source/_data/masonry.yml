@@ -1,0 +1,6 @@
+- image: 图片1 URL
+  title: 图片1标题
+  description: 图片1描述
+- image: 图片2 URL  # 新的列表项，与上一个 "-" 对齐
+  title: 图片2标题
+  description: 图片2描述
