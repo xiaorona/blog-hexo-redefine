@@ -37,7 +37,7 @@ defaults:
 # 文档: https://redefine-docs.ohevan.com/basic/colors
 colors:
   # 主色调
-  primary: "#A31F34"
+  primary: "#FE7BB5"
   # 副色调 (待定)
   secondary:
   # 默认主题模式初始值 (会被 prefers-color-scheme 覆盖)
@@ -48,23 +48,23 @@ colors:
 # 网站全局配置 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 开始
 # 文档: https://redefine-docs.ohevan.com/basic/global
 global:
-  # 自定义全局字体
+  # Custom global fonts
   fonts:
-    # 中文字体
+    # Chinese fonts
     chinese: 
-      enable: false # 是否启用自定义中文字体
-      family:  # 字体家族
-      url:  # 字体 CSS 文件 URL
-    # 英文字体
+      enable: false # Whether to enable custom chinese fonts
+      family:  # Font family
+      url:  # Font URL to CSS file
+    # English fonts
     english: 
-      enable: false # 是否启用自定义英文字体
-      family:  # 字体家族
-      url:  # 字体 CSS 文件 URL
-    # 自定义标题字体 (导航栏、侧边栏)
+      enable: false # Whether to enable custom english fonts
+      family:  # Font family
+      url:  # Font URL to CSS file
+    # Custom title fonts (navbar, sidebar)
     title:
-      enable: false # 是否启用自定义标题字体
-      family:  # 字体家族
-      url:  # 字体 CSS 文件 URL
+      enable: false # Whether to enable custom title fonts
+      family:  # Font family
+      url:  # Font URL to CSS file
   # 内容最大宽度
   content_max_width: 1000px
   # 侧边栏宽度
@@ -193,7 +193,7 @@ home_banner:
 # 文档: https://redefine-docs.ohevan.com/home/navbar
 navbar:
   # 自动隐藏导航栏
-  auto_hide: false
+  auto_hide: true
   # 导航栏背景颜色
   color:
     left: "#f78736" # 左侧颜色 
@@ -207,22 +207,31 @@ navbar:
   links:
     Home: 
       path: / 
-      icon: fa-regular fa-house # 可为空
+      icon: fa-solid fa-house # 可为空
     Archives: 
       path: /archives 
-      icon: fa-regular fa-archive # 可为空
+      icon: fa-solid fa-box-archive # 可为空
+    Tags: 
+      path: /tags/ 
+      icon: fa-solid fa-tags # 可为空
+    Categories: 
+      path: /categories/ 
+      icon: fa-solid fa-folder # 可为空
     Albums: 
       path: /masonry/ 
       icon: fa-solid fa-image # 可为空
+    Bookmarks: 
+      path: /bookmarks/ 
+      icon: fa-solid fa-bookmark # 可为空
     About: 
       icon: fa-solid fa-circle-info
       submenus:
         Me: /about
     Links: 
-      icon: fa-regular fa-link
+      icon: fa-solid fa-square-up-right
       submenus:
         Link1: https://example.com
-        Link2: /friendslink
+        Link2: /links/
     # ...... # 可以添加更多
   # 导航栏搜索 (本地搜索)。需要 hexo-generator-searchdb (npm i hexo-generator-searchdb)。参见 https://github.com/theme-next/hexo-generator-searchdb
   search:
@@ -244,15 +253,15 @@ home:
     announcement: # 公告文本
     show_on_mobile: true # 是否在移动端显示侧边栏导航
     links:
-      # Archives: 
-      #   path: /archives 
-      #   icon: fa-regular fa-archive # 可为空
-      # Tags: 
-      #   path: /tags 
-      #   icon: fa-regular fa-tags # 可为空
-      # Categories: 
-      #   path: /categories 
-      #   icon: fa-regular fa-folder # 可为空
+      Archives: 
+        path: /archives 
+        icon: fa-regular fa-archive # 可为空
+      Tags: 
+        path: /tags 
+        icon: fa-regular fa-tags # 可为空
+      Categories: 
+        path: /categories 
+        icon: fa-regular fa-folder # 可为空
       # ...... # 可以添加更多
   # 文章日期格式
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss 等
@@ -296,7 +305,7 @@ articles:
     min2read: true # 是否显示阅读时间
   # 作者标签
   author_label: 
-    enable: true # 是否启用
+    enable: false # 是否启用
     auto: false # 是否自动添加作者标签，例如 Lv1, Lv2, Lv3...
     list: []
   # 代码块设置
@@ -395,7 +404,7 @@ footer:
   # 页脚图标，填写 fontawesome 图标代码
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # 网站开始时间，格式: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2025/03/21 12:00:00
   # 网站统计
   statistics: true # 是否显示网站统计 (总文章数、总字数)
   # 页脚自定义消息
