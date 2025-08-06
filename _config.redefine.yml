@@ -1,8 +1,8 @@
 info:
-  title: Xiaorona
-  subtitle: Blog
-  author: xiaorona
-  url: https://blog.acg.rest
+  title: 喵喵快乐小窝
+  subtitle: 
+  author: oneko
+  url: https://www.oneko.cc
 
 defaults:
   favicon: /images/redefine-favicon.svg
@@ -44,13 +44,13 @@ global:
     post_pv: true
   single_page: true
   preloader:
-    enable: true
+    enable: false
     custom_message:
   side_tools:
     gear_rotation: true
     auto_expand: false
   open_graph:
-    enable: true
+    enable: false
     image: /images/redefine-og.webp
     description: Hexo Theme Redefine, Redefine Your Hexo Journey.
   google_analytics:
@@ -227,7 +227,7 @@ articles:
     skip_dirs: []
 
 comment:
-  enable: true
+  enable: false
   system: waline
   config:
     waline:
@@ -267,8 +267,8 @@ footer:
   statistics: true
   customize:
   icp:
-    enable: false
-    number:
+    enable: true
+    number: 桂ICP备2025068570号
     url:
 
 inject:
