@@ -1,13 +1,13 @@
 info:
   title: 喵喵快乐小窝
-  subtitle: 
+  subtitle: 🥝
   author: oneko
   url: https://www.oneko.cc
 
 defaults:
-  favicon: /images/redefine-favicon.svg
+  favicon: https://www.zako.im/favicon.ico
   logo: 
-  avatar: /images/redefine-avatar.svg
+  avatar: https://www.zako.im/images/avatar.webp
 
 colors:
   primary: "#FE7BB5"
@@ -67,13 +67,13 @@ home_banner:
   enable: true
   style: fixed
   image: 
-    light: /images/wallhaven-wqery6-light.webp
-    dark: /images/wallhaven-wqery6-dark.webp
-  title: Hello World
+    light: /images/bg_light.jpg
+    dark: /images/bg_dark.jpg
+  title: ovo
   subtitle:
-    text: []
+    text: ["This is the first message", "This is the second message", "etc"]
     hitokoto:
-      enable: false
+      enable: true
       show_author: false
       api: https://v1.hitokoto.cn
     typing_speed: 100
@@ -262,7 +262,7 @@ comment:
 
 footer:
   runtime: true
-  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+  icon: ''
   start: 2025/03/21 12:00:00
   statistics: true
   customize:
