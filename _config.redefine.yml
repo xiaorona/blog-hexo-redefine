@@ -69,7 +69,7 @@ home_banner:
   image: 
     light: /images/bg_light.jpg
     dark: /images/bg_dark.jpg
-  title: ovo
+  title: OvO
   subtitle:
     text: ["This is the first message", "This is the second message", "etc"]
     hitokoto:
