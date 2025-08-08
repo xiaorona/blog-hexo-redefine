@@ -1,13 +1,13 @@
 info:
-  title: 喵喵快乐小窝
-  subtitle: 🥝
-  author: oneko
-  url: https://www.oneko.cc
+  title: Xiaorona
+  subtitle: Blog
+  author: xiaorona
+  url: https://blog.acg.rest
 
 defaults:
-  favicon: https://www.zako.im/favicon.ico
+  favicon: image/favicon.ico
   logo: 
-  avatar: https://www.zako.im/images/avatar.webp
+  avatar: images/avatar.webp
 
 colors:
   primary: "#FE7BB5"
@@ -69,7 +69,7 @@ home_banner:
   image: 
     light: /images/bg_light.jpg
     dark: /images/bg_dark.jpg
-  title: OvO
+  title: Xiaorona's Blog
   subtitle:
     text: ["This is the first message", "This is the second message", "etc"]
     hitokoto:
@@ -268,8 +268,8 @@ footer:
   customize:
   icp:
     enable: true
-    number: 桂ICP备2025068570号
-    url:
+    number: 萌ICP备20253666号
+    url: https://icp.gov.moe/?keyword=20253666
 
 inject:
   enable: false
