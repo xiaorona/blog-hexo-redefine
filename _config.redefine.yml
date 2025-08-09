@@ -5,7 +5,7 @@ info:
   url: https://blog.acg.rest
 
 defaults:
-  favicon: image/favicon.ico
+  favicon: images/favicon.ico
   logo: 
   avatar: images/avatar.webp
 
